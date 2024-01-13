@@ -1,0 +1,173 @@
+.contenu{
+    height: 100vh;
+    display: flex;
+
+   text-align: center;
+   justify-content: center;
+  
+}
+body{
+    height: 100%;
+}
+.card .top{
+    height: 150px;
+    color: #fff;
+    padding: 16px 0 0 0 ;
+    border-radius: 15px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
+    background-color: #5C00A3;
+    
+  }
+  
+ .card .top1{
+    background:#A32EFF;
+    width:18em;
+    height:10em;
+   position:relative;
+   border-radius: 15px;
+   margin: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 25% 100%, 0 75%);
+    
+  }
+.chiffre span{
+    position: absolute;
+    top: 13rem;
+}
+
+.up span{
+    color: white;
+}
+.card{
+
+  margin-right: 16px;
+  margin-top: 50px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  box-shadow: rgba(30,73,155,.3) 0 4px 12px;
+}
+
+.lorem span{
+    display: block;
+    padding: .2rem;
+}
+.boutton button{
+    width: 10rem;
+    padding: .5rem;  
+    background-color: white;
+    border: 1px solid violet;
+    border-radius: 2rem; 
+    cursor: pointer;
+    }
+    .lorem span svg{
+        color: #5C00A3;
+     }
+     .group-input input{
+        background-image: url(image/search.svg);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 18rem;
+        padding: 0.4rem;
+        width: 20rem;
+        border-radius: 10px;
+        border: 1px solid violet;
+    }
+    .group-input button{
+        border-radius: 10px;
+        border: 1px solid violet;
+        width: 5rem;
+    }
+    .group-input{
+     
+        width: 100%;
+    }
+ 
+    .card-4 div{
+        padding: 2rem;
+    }
+    .card-4 h6{
+        text-align: center;
+        margin: auto;
+    }
+    .card-4 div p{
+        text-align: justify;
+        background-color: #5C00A3;
+       color: #fff;
+       padding: 1rem;
+    }
+     .card .top .price-sec {
+        margin-top: 12px;
+        font-weight: 600;
+    }
+/* 
+
+
+.first-divcf{
+    display: flex;
+}
+
+
+
+.card{
+   margin: 1rem;
+   background-color: #fff;
+   padding-top: 1rem;
+   padding: 1.2rem;
+   height: 55vh;
+   border-radius: 15px;
+   box-shadow: 1px 4px 6px 1px;
+}
+img{
+    width: 20%;
+}
+
+
+
+.lorem{
+    align-items: center;  
+}
+
+.boutton{
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: violet;
+}
+.side-bottom{
+    justify-content: center;
+}
+
+.side-bottom .card{
+    border-radius: 10px;
+    position: relative;
+}
+.side-bottom .card{
+    width: 17rem;
+    padding: 1rem;
+ 
+}
+.side-bottom .card h4{
+margin-top: 3rem;
+}
+.side-bottom .card div div{
+ 
+    position: absolute;
+    left: 8rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #5C00A3;
+    opacity: 0.4;
+    
+}
+.side-bottom .card div img{
+    font-size: large;
+z-index: 3;
+position: absolute;
+left: 8.7rem;
+top: 0.8rem;
+}
+.card img{
+    width: 10%;
+} */
