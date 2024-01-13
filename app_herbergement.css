@@ -169,26 +169,29 @@ border-color: #00FF00;
 }
    .inclus  img{
    
-        font-size: large;
-    z-index: 3;
-    position: absolute;
-    left: 11.5rem;
-    top: 2px;
+       
     }
 
 .inclus div div{
- 
-    position: absolute;
-    left: 11.9rem;
+
+   margin: auto;
     top: 2px;
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     background-color: #5C00A3;
     opacity: 0.4;
+  
+}
+.inclus svg{
+    width: 2rem;
+    color: #fff;
+    font-size: large;
+    z-index: 3;
+  
+  margin: auto;
     
 }
-
 .content .card button{
   outline: none;
   height: 42px;
@@ -286,14 +289,12 @@ p{
     width: 18rem;
 }
 .inclus  img{
-left: 50%;
-top: -10%;
+
 
 }
 
 .inclus div div{
-left: 52%;
-top: -10%;
+
 
 
 }
